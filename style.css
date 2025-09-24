@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #e3f2fd; /* Un azul muy claro para el fondo */
+    color: #333;
+}
+
+header {
+    background: #052242;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff; /* El color de fondo del contenido principal sigue siendo blanco */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+/* Estilos para listas y tablas */
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para formularios */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label, input, select, button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"], select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilos para multimedia */
+.media-container video, .media-container audio {
+    display: block;
+    margin: 1rem 0;
+}
+
+.iframe-container {
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    display: block;
+    margin: 1rem auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}

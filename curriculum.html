@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="DAHIR ALEJANDRO BAUTISTA MEZA">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/909/909212.png">
+    <title>Mi Currículum Vitae</title>
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="#acerca-de">Acerca de Mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#multimedia">Multimedia</a></li>
+                    <li><a href="#formulario">Formulario</a></li>
+                </ul>                    
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+<a id="inicio"></a>
+        <section id="acerca-de">
+            <h2>Acerca de Mí</h2>
+            <p>¡Hola! Mi nombre es Dahir Alejandro Bautista Meza. Soy un apasionado por el desarrollo web. Me encanta resolver problemas y crear soluciones innovadoras para proyectos digitales.
+            </p>
+            <img src="FOTO8.jpg" alt="Foto de perfil" class="profile-pic">
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <p>Aquí hay una lista de algunas de mis habilidades:</p>
+            <ul>
+                <li>HTML5 y CSS3 pricipiante </li>
+                <li>JavaScript y frameworks modernos</li>
+                <li>Gestión de bases de datos</li>
+                <li>Resolución de problemas</li>
+            </ul>
+        </section>
+
+        <section id="multimedia">
+            <h2>Portafolio Multimedia</h2>
+            <p>Aquí puedes ver un video y escuchar un audio para relajarte.</p>
+            <div class="media-container">
+                <video controls width="300">
+                    <source src="mi_video.mp4" type="video/mp4">
+                    Tu navegador no soporta el formato de video.
+                </video>
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el formato de audio.
+                </audio>
+            </div>
+
+            <a href="#inicio">pulse para ir al inicio</a><br>
+        </section>
+
+        <section id="formulario">
+    <h2>Formulario de Contacto </h2>
+    <p>Completa este formulario para contactarme o dejar un mensaje.</p>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ej. 55-1234-5678">
+        </div>
+
+        Fecha de nacimiento:<br>
+                <input type="date" name="fecha_nacimiento">
+                <br><br>
+
+        <div class="form-group">
+            <p>Tipo de Consulta:</p>
+            <label>
+                <input type="radio" name="consulta" value="oferta-laboral" required> Oferta Laboral
+            </label>
+            <label>
+                <input type="radio" name="consulta" value="proyecto-personal"> Propuesta de Proyecto
+            </label>
+            <label>
+                <input type="radio" name="consulta" value="mensaje-general"> Mensaje General
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>Áreas de Interés (puedes seleccionar varias):</p>
+            <label>
+                <input type="checkbox" name="area" value="desarrollo-frontend"> Desarrollo Frontend
+            </label>
+            <label>
+                <input type="checkbox" name="area" value="desarrollo-backend"> Desarrollo Backend
+            </label>
+            <label>
+                <input type="checkbox" name="area" value="diseño-ux-ui"> Diseño UX/UI
+            </label>
+            <label>
+                <input type="checkbox" name="area" value="gestion-proyectos"> Gestión de Proyectos
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>¿En qué áreas te gustaría colaborar?</p>
+            <label>
+                <input type="checkbox" name="area" value="desarrollo_web"> Desarrollo Web
+            </label>
+            <label>
+                <input type="checkbox" name="area" value="diseno_ux"> Diseño UX/UI
+            </label>
+            <label>
+                <input type="checkbox" name="area" value="marketing_digital"> Marketing Digital
+            </label>
+            <label>
+                <input type="checkbox" name="area" value="data_science"> Ciencia de Datos
+            </label>
+        </div>
+        
+        <div class="form-group">
+            <label for="mensaje">Tu Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" onclick="alert('GRACIAS POR CONTESTAR')">Enviar Formulario</button>
+            <button type="reset" onclick="alert('Campos borrados')">Borrar Campos</button>
+        </div>
+    </form>
+</section>
+
+        <section id="iframe-section">
+            <h2>Ejemplo de un Mapa</h2>
+            <div class="iframe-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.591206105349!2d-103.35510658514125!3d20.672018886196236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1a32a6f2b1d%3A0xc3f15f3e9c9f2b1d!2sGuadalajara%2C%20Jalisco%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1633333333333!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+         <a href="#inicio">pulse para ir al inicio</a><br>
+        <a id="Final"></a>
+    </main>
+ 
+        <footer align="center">
+        <p>Copyright &copy;MACC2020</p>
+        <p>Programador: Dahir Alejandro Bautista Meza</p>
+        <p>Contacto Programador: <a href="mailto:bautistamezad@gmail.com">bautistamezad@gmail.com</a>.</p>        <address align="center">
+            Av. Eloy Cavazos.<br>
+            N&uacute;mero #2001<br>
+            Col. Tolteca <br>
+            Guadalupe, N.L.<br>
+            M&eacute;xico
+        </address>
+
+</body>
+</html>
